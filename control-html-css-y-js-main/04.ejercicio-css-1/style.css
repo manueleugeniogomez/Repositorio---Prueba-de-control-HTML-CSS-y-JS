@@ -40,6 +40,7 @@
 .lista li:nth-child(4) {
     font-size: large;
     text-transform: capitalize;
+    text-transform: uppercase;
 }
 
 #provincias li:not(:nth-child(2)) {

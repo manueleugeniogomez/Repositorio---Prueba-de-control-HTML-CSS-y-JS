@@ -39,8 +39,26 @@ header h2 {
     button {
         background-color: black;
         color: white;
+        
     }
     
+    .outlinenone {
+      background-color: grey;
+      border: 5px;
+      width: auto;
+      height: auto;
+      max-width: max-content;
+    }
+
+    .outlinenonebig {
+      background-color: grey;
+      border: 5px;
+      width: auto;
+      height: 150px;
+      max-width: max-content;
+    }
+
+
     @media (min-width: 800px) {
   html {
     font-size: 20px;
@@ -67,3 +85,11 @@ form {
 margin-left: 20%;
 margin-right: 20%;
 }
+
+ button {
+        background-color: black;
+        color: white;
+         margin-left: 20%;
+  margin-right: 20%;
+    }
+    }
